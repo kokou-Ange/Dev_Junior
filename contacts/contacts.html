@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>Mes contacts</title>
 </head>
 <body>
-    
+    <h1>Mes contacts</h1>
+    <p>Vous pouvez me contactez via les coordonnées suivantes :</p>
+    <ul>
+        <li>Email :<a href="mailto:kokouecom@gmail.com">kokouecom@gmail.com</a></li>
+        <li>Téléphone : <a href="telto:+2290168457773">+229 0168457773</a></li>
+        <li>Adresse : Cotonou, Rép. Bénin</li>
+    </ul>
+
+    <h2>Formulaire de contact</h2>
+    <form action="">
+        <input type="text" placeholder="Nom" required><br>
+        <input type="text" placeholder="Prénom" required><br>
+        <input type="number" placeholder="Numéro de téléphone" required><br>
+        <input type="email" placeholder="Email" required><br>
+        <p>Choisissez le ou les types de services que vous souhaitez :</p>
+        <input type="checkbox"><span>Communication digitale</span><br>
+        <input type="checkbox"><span>Marketing digital</span><br>
+        <input type="checkbox"><span>Développement web</span><br>
+        <input type="checkbox"><span>Design UX/UI</span><br>
+
+        <textarea placeholder="Votre message" rows="15" cols="50" required></textarea>
+        <button type="submit">Envoyer</button>
+
+
+    </form>
 </body>
 </html>
