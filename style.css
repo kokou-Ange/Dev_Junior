@@ -1,0 +1,46 @@
+h1{
+    color: red;
+    font-size: 2rem;
+}
+
+p{
+    color: blue;
+    font-size: 1.2rem;
+}
+
+h3{
+    color: green;
+    font-size: 1.5rem;
+}
+
+ul{color: rgba(111, 104, 7, 0.766);
+    font-size: 1.2rem;
+}
+ol{color: rgb(48, 48, 9);
+    font-size: 1.2rem;
+}
+a{
+    color: rgb(233, 11, 11);
+    text-decoration: none;
+background-color: #b1b1c5;
+}
+#monprofil{
+    background-color: #c35b5b;
+    height: 50px;
+    width: 10%;
+}
+section ul{
+    background-color: #beb1b1;
+}
+.codjo{
+    color: #8c9100;
+    text-decoration: overline;
+    text-align: right;
+    background-color: #000000;
+    width: 50%;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    justify-content: center;
+    overflow: auto;
+}}
