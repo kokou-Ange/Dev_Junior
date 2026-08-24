@@ -1,35 +1,76 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Mes contacts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="contacts.css">
 </head>
 <body>
-    <h1>Mes contacts</h1>
-    <p>Vous pouvez me contactez via les coordonnées suivantes :</p>
-    <ul>
-        <li>Email :<a href="mailto:kokouecom@gmail.com">kokouecom@gmail.com</a></li>
-        <li>Téléphone : <a href="telto:+2290168457773">+229 0168457773</a></li>
-        <li>Adresse : Cotonou, Rép. Bénin</li>
-    </ul>
+    <div class="container">
+        <header>
+            <h1>Contacts</h1>
+            <p>Kokou Ange Julien SEGLA — Référent Digital</p>
+        </header>
 
-    <h2>Formulaire de contact</h2>
-    <form action="">
-        <input type="text" placeholder="Nom" required><br>
-        <input type="text" placeholder="Prénom" required><br>
-        <input type="number" placeholder="Numéro de téléphone" required><br>
-        <input type="email" placeholder="Email" required><br>
-        <p>Choisissez le ou les types de services que vous souhaitez :</p>
-        <input type="checkbox"><span>Communication digitale</span><br>
-        <input type="checkbox"><span>Marketing digital</span><br>
-        <input type="checkbox"><span>Développement web</span><br>
-        <input type="checkbox"><span>Design UX/UI</span><br>
+        <section class="section_style mes_coordonnes">
+            <h2 class="titre_section">Mes coordonnées</h2>
+            <p>Vous pouvez me contacter via les coordonnées suivantes :</p>
+            <ul>
+                <li>Email : <a href="mailto:seglajulien99@gmail.com">seglajulien99@gmail.com</a></li>
+                <li>Téléphone : <a href="tel:+229016845773">+2290166633357</a></li>
+                <li>Adresse : Cotonou, Rép. du Bénin</li>
+            </ul>
+        </section>
 
-        <textarea placeholder="Votre message" rows="15" cols="50" required></textarea>
-        <button type="submit">Envoyer</button>
+        <section class="section_style">
+            <h2 class="titre_section">Formulaire de contact</h2>
+            <form action="">
+                <input type="text" placeholder="Nom" required> <br>
+                <input type="text" placeholder="Prénom(s)" required> <br>
+                <p>Genre</p>
+                <input type="radio" name="genre" value="homme" required> <span>Masculin</span> <br>
+                <input type="radio" name="genre" value="femme" required> <span>Féminin</span> <br>
+                <input type="number" placeholder="Téléphone" required> <br>
+                <input type="email" placeholder="Email" required> <br>
+                <p>Choisissez le/les type(s) de service(s) souhaité(s) :</p>
+                <input type="checkbox" required><span>Communication Digitale</span><br>
+                <input type="checkbox" required><span>Graphisme</span> <br>
+                <input type="checkbox" required><span>Marketing Digital</span> <br>
+                <input type="checkbox" required><span>Développement Web</span><br>
 
+                <div class="bloc-input">
+                    <div>
+                        <label class="label_input" for="">Nom</label>
+                        <input class="input-style" type="text" placeholder="Votre Nom" required><br>
+                    </div>
+                    <div>
+                        <label class="label_input" for="">Prénom(s)</label>
+                        <input class="input-style" type="text" placeholder="Votre Prénom" required><br>
+                    </div>
+                </div>
+                <div>
+                    <p class="label_input">Genre</p>
+                    <input 
+                        class="input-style" type="radio" name="genre" value="homme" required> <label class="" for="">Masculin</label> <br>
+                    <input class="input-style" type="radio" name="genre" value="femme" required> <label class="" for="">Féminin</label> <br>
+                </div>
+                <div>
+                    <label class="label_input" for="">Téléphone</label> <input class="input-style" type="number" placeholder="Téléphone" required> <br>
+                    <label class="label_input" for="">Email</label> <input class="input-style" type="email" placeholder="Email" required> <br>
+                </div>
+                <div>
+                    <p class="label_input">Choisissez le/les type(s) de service(s) souhaité(s) :</p>
+                    <input class="input-style" type="checkbox" required><label for="">Communication Digitale</label><br>
+                    <input class="input-style" type="checkbox" required><label for="">Graphisme</label> <br>
+                    <input class="input-style" type="checkbox" required><label for="">Marketing Digital</label> <br>
+                    <input class="input-style" type="checkbox" required><label for="">Développement Web</label><br>
+                </div>
+                <label class="label_input" for="">Votre Message</label>
+                <textarea placeholder="Votre Message" rows="5" cols="30" required></textarea><br>
 
-    </form>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </div>
 </body>
-</html>

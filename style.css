@@ -1,46 +1,104 @@
-h1{
-    color: red;
-    font-size: 2rem;
+img {
+  border: 4px solid var(--bleu-principal);
+  border-radius: 0px;
+  max-width: 100%;   /* ne dépasse jamais du container */
+  height: auto;      /* garde les proportions */
+  margin-bottom: 15px;
+  display: block;
 }
 
-p{
-    color: blue;
-    font-size: 1.2rem;
+header {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8eef5;
 }
 
-h3{
-    color: green;
-    font-size: 1.5rem;
+/* début style main */
+main {
+    margin: 50px 260px;
+    background-color: #FFFFFF;
+    border: #c8d4e3 solid 0.73px;
+    border-radius: 8px;
 }
+/* fin style main */
 
-ul{color: rgba(111, 104, 7, 0.766);
-    font-size: 1.2rem;
-}
-ol{color: rgb(48, 48, 9);
-    font-size: 1.2rem;
-}
-a{
-    color: rgb(233, 11, 11);
-    text-decoration: none;
-background-color: #b1b1c5;
-}
-#monprofil{
-    background-color: #c35b5b;
-    height: 50px;
-    width: 10%;
-}
-section ul{
-    background-color: #beb1b1;
-}
-.codjo{
-    color: #8c9100;
-    text-decoration: overline;
-    text-align: right;
-    background-color: #000000;
-    width: 50%;
-    height: 50px;
-    position: relative;
-    left: 50%;
+/* Debut style header */
+header {
+    height: 294px;
+    background-color: #0055CC;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    border: #c8d4e3 solid 0.73px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    overflow: auto;
-}}
+    align-items: center;
+}
+/* --------------Fin Style Header------------------- */
+
+
+/* --------------Début Style h1 du Header------------------- */
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* --------------Fin Style h1 du Header------------------- */
+
+/* --------------Début Style h2 du Header------------------- */
+header h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+/* --------------Fin Style h2 du Header------------------- */
+
+/* --------------Début Style h3 du Header------------------- */
+header h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* --------------Fin Style h3 du Header------------------- */
+
+/* --------------Début Style p du Header------------------- */
+header p {
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+/* --------------Fin Style p du Header------------------- */
+
+/* --------------Début Style de menu de navigation------------------- */
+nav {
+    padding: 24px 0px ;
+}
+
+nav ul {
+    display: flex;
+    text-transform: uppercase;
+    color: #d2cbcb;
+    margin-bottom: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    margin-right: 10px;
+    padding: 5px 15px;
+    border: 1px solid #d2cbcb;
+    background-color: #d2cbcb;
+    border-radius: 4px;
+}
+
+
+/* --------------Fin Style de menu de navigation------------------- */
